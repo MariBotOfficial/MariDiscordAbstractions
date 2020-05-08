@@ -1,0 +1,14 @@
+image: mcr.microsoft.com/dotnet/core/sdk:3.1
+
+stages:
+ - build
+
+variables:
+  proj: "MariBot.DiscordPatterns"
+
+build: 
+  stage: build
+  script:
+    - "cd $proj"
+    - "dotnet restore"
+    - "dotnet build --no-restore"

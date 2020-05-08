@@ -2,6 +2,20 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <PackageId>MariBot.DiscordPatterns</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>renanrcp</Authors>
+    <Company>MariBot</Company>
+    <Description>Base abstractions of Discord Patterns for MariBot.</Description>
+    <Copyright>2019 - 2020 renanrcp. All rights reserved.</Copyright>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageIcon>MariDiscordRestIcon.png</PackageIcon>
+
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="MariDiscordRestIcon.png" Pack="true" Visible="false" PackagePath="" />
+  </ItemGroup>
 
 </Project>
