@@ -1,10 +1,11 @@
+using System;
+
 namespace MariBot.DiscordPatterns.Websockets
 {
     /// <summary>
-    /// Base socket client interface.
+    /// Base sharded socket client interface.
     /// </summary>
-    public interface IMariDiscordSocketClient
+    public interface IMariDiscordSocketClient : IDisposable
     {
-        
     }
 }
