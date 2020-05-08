@@ -17,7 +17,7 @@ namespace MariBot.DiscordPatterns.Websockets
         /// <summary>
         /// Total shard count of this sharded client.
         /// </summary>
-        int TotalShardCount { get; protected set; }
+        int TotalShardCount { get; }
 
         /// <summary>
         /// Login in discord.

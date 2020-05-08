@@ -1,5 +1,4 @@
 using System.Threading.Tasks;
-using MariBot.DiscordPatterns.Core;
 using MariGlobals.Event.Concrete;
 using Microsoft.Extensions.Logging;
 
@@ -8,6 +7,11 @@ namespace MariBot.DiscordPatterns.Websockets
     /// <inheritdoc/>
     public abstract class MariDiscordSocketClient : IMariDiscordSocketClient
     {
+        /// <summary>
+        /// Returns if this current instance is disposed.
+        /// </summary>
+        public bool IsDisposed { get; protected set; } = false;
+
         /// <summary>
         /// The logger of this client.
         /// </summary>
@@ -29,12 +33,6 @@ namespace MariBot.DiscordPatterns.Websockets
         /// Config for this client.
         /// </summary>
         protected IMariDiscordSocketClientConfig Config { get; set; }
-
-        int IMariDiscordSocketClient.TotalShardCount 
-        { 
-            get => TotalShardCount;
-            set => TotalShardCount = value;
-        }
 
         /// <summary>
         /// Total shard count of this sharded client.
