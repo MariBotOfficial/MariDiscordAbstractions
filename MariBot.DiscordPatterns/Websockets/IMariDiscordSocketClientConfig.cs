@@ -31,5 +31,10 @@ namespace MariBot.DiscordPatterns.Websockets
         ///  Gets or sets whether or not all users should be downloaded as guilds come available.
         /// </summary>
         bool AlwaysDownloadUsers { get; set; }
+
+        /// <summary>
+        /// The shard ids of this sharded client.
+        /// </summary>
+        int[] ShardIds { get; set; }
     }
 }
