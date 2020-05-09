@@ -3,7 +3,7 @@ using Microsoft.Extensions.Logging;
 namespace MariBot.DiscordPatterns.Websockets
 {
     /// <inheritdoc/>
-    public abstract class MariDiscordSocketClientConfig : IMariDiscordSocketClientConfig
+    public class MariDiscordSocketClientConfig : IMariDiscordSocketClientConfig
     {
         /// <inheritdoc/>
         public LogLevel LogLevel { get; set; } = LogLevel.Information;

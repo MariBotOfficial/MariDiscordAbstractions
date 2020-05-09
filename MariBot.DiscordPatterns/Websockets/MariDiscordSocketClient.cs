@@ -45,7 +45,7 @@ namespace MariBot.DiscordPatterns.Websockets
         /// <param name="config">Configuration for this client.</param>
         /// <param name="logger">The logger of this client. </param>
         public MariDiscordSocketClient(
-            IMariDiscordSocketClientConfig config, 
+            IMariDiscordSocketClientConfig config,
             ILogger<IMariDiscordSocketClient> logger)
         {
             Config = config;
@@ -62,6 +62,12 @@ namespace MariBot.DiscordPatterns.Websockets
         /// </summary>
         public MariDiscordSocketClient(IMariDiscordSocketClientConfig config)
             : this(config, null) { }
+
+        /// <summary>
+        /// Creates a new instance of <see cref="MariDiscordSocketClient" />
+        /// </summary>
+        public MariDiscordSocketClient()
+            : this(new MariDiscordSocketClientConfig(), null) { }
 
         /// <inheritdoc/>
         public abstract Task LoginAsync(string token);
