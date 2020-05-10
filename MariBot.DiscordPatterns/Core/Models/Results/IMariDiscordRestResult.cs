@@ -11,7 +11,7 @@ namespace MariBot.DiscordPatterns.Core.Models.Results
         int StatusCode { get; }
     }
 
-    /// <inheritdoc/>
+    /// <inheritdoc />
     public interface IMariDiscordRestResult<TValue> : IMariDiscordRestResult
         where TValue : IMariDiscordEntity<ulong>
     {

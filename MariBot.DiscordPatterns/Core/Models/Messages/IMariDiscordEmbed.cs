@@ -36,7 +36,7 @@ namespace MariBot.DiscordPatterns.Core.Models.Messages
         /// <summary>
         /// The color of this embed.
         /// </summary>
-        MariDiscordColor? Color { get; }
+        IMariDiscordColor Color { get; }
 
         /// <summary>
         /// The image of this embed.

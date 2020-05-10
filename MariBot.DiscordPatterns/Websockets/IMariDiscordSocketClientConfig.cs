@@ -8,9 +8,15 @@ namespace MariBot.DiscordPatterns.Websockets
     public interface IMariDiscordSocketClientConfig
     {
         /// <summary>
+        /// The base Discord CDN URL. 
+        /// </summary>
+        const string CDNUrl
+            = "https://cdn.discordapp.com/";
+
+        /// <summary>
         /// LogLevel for entire logging.
         /// </summary>
-        LogLevel LogLevel { get; set; }   
+        LogLevel LogLevel { get; set; }
 
         /// <summary>
         /// Total message cache size.

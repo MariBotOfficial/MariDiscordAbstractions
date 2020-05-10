@@ -1,10 +1,11 @@
 using System.Threading.Tasks;
+using MariBot.DiscordPatterns.Core.Models.Messages;
 using MariGlobals.Event.Concrete;
 using Microsoft.Extensions.Logging;
 
 namespace MariBot.DiscordPatterns.Websockets
 {
-    /// <inheritdoc/>
+    /// <inheritdoc />
     public abstract class MariDiscordSocketClient : IMariDiscordSocketClient
     {
         /// <summary>
@@ -17,7 +18,7 @@ namespace MariBot.DiscordPatterns.Websockets
         /// </summary>
         protected readonly ILogger<IMariDiscordSocketClient> _logger;
 
-        /// <inheritdoc/>
+        /// <inheritdoc />
         public event AsyncEventHandler OnReady
         {
             add => _onReady.Register(value);
@@ -69,19 +70,19 @@ namespace MariBot.DiscordPatterns.Websockets
         public MariDiscordSocketClient()
             : this(new MariDiscordSocketClientConfig(), null) { }
 
-        /// <inheritdoc/>
+        /// <inheritdoc />
         public abstract Task LoginAsync(string token);
 
-        /// <inheritdoc/>
+        /// <inheritdoc />
         public abstract Task StartAsync();
 
-        /// <inheritdoc/>
+        /// <inheritdoc />
         public abstract Task LogoutAsync();
 
-        /// <inheritdoc/>
+        /// <inheritdoc />
         public abstract Task StopAsync();
 
-        /// <inheritdoc/>
+        /// <inheritdoc />
         public abstract void Dispose();
     }
 }

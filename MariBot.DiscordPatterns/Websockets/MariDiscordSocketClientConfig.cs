@@ -2,25 +2,26 @@ using Microsoft.Extensions.Logging;
 
 namespace MariBot.DiscordPatterns.Websockets
 {
-    /// <inheritdoc/>
+    /// <inheritdoc />
     public class MariDiscordSocketClientConfig : IMariDiscordSocketClientConfig
     {
-        /// <inheritdoc/>
+
+        /// <inheritdoc />
         public LogLevel LogLevel { get; set; } = LogLevel.Information;
 
-        /// <inheritdoc/>
+        /// <inheritdoc />
         public int MessageCacheSize { get; set; } = 100;
 
-        /// <inheritdoc/>
+        /// <inheritdoc />
         public int? ShardCount { get; set; }
 
-        /// <inheritdoc/>
+        /// <inheritdoc />
         public int ConnectionTimeout { get; set; } = 10000;
 
-        /// <inheritdoc/>
+        /// <inheritdoc />
         public bool AlwaysDownloadUsers { get; set; } = false;
 
-        /// <inheritdoc/>
+        /// <inheritdoc />
         public int[] ShardIds { get; set; }
     }
 }
