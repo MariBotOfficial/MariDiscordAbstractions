@@ -1,3 +1,5 @@
+using System.Net;
+
 namespace MariBot.DiscordPatterns.Core.Models.Results
 {
     /// <summary>
@@ -8,12 +10,11 @@ namespace MariBot.DiscordPatterns.Core.Models.Results
         /// <summary>
         /// The status code of this request.
         /// </summary>
-        int StatusCode { get; }
+        HttpStatusCode StatusCode { get; }
     }
 
     /// <inheritdoc />
     public interface IMariDiscordRestResult<TValue> : IMariDiscordRestResult
-        where TValue : IMariDiscordEntity<ulong>
     {
         /// <summary>
         /// The value of the request.

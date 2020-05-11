@@ -19,7 +19,7 @@ namespace MariBot.DiscordPatterns.Core.Models.Channels
         /// <summary>
         /// Gets a collection of users that are able to view the channel or are currently in this channel.
         /// </summary>
-        IAsyncEnumerable<IReadOnlyCollection<IMariDiscordUser>> GetUsersAsync();
+        IAsyncEnumerable<IMariDiscordRestResult<IReadOnlyCollection<IMariDiscordUser>>> GetUsersAsync();
 
         /// <summary>
         /// Gets a user in this channel.

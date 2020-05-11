@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using MariBot.DiscordPatterns.Core.Models.Channels;
 using MariBot.DiscordPatterns.Core.Models.Emotes;
 using MariBot.DiscordPatterns.Core.Models.Results;
 using MariBot.DiscordPatterns.Core.Models.Users;
@@ -138,6 +139,6 @@ namespace MariBot.DiscordPatterns.Core.Models.Messages
         /// <summary>
         /// Gets all users that reacted to a message with a given emote.
         /// </summary>
-        IAsyncEnumerable<IReadOnlyCollection<IMariDiscordUser>> GetReactionUsersAsync(IMariDiscordEmote emoji, int limit);
+        IAsyncEnumerable<IMariDiscordRestResult<IReadOnlyCollection<IMariDiscordUser>>> GetReactionUsersAsync(IMariDiscordEmote emoji, int limit);
     }
 }
