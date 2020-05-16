@@ -1,3 +1,7 @@
+using System.Threading.Tasks;
+using MariBot.DiscordPatterns.Core.Models.Channels;
+using MariBot.DiscordPatterns.Core.Models.Results;
+
 namespace MariBot.DiscordPatterns.Core.Models.Users
 {
     /// <summary>
@@ -45,5 +49,10 @@ namespace MariBot.DiscordPatterns.Core.Models.Users
         /// The username for this user.
         /// </summary>
         string Username { get; }
+
+        /// <summary>
+        /// Gets the direct message channel of this user, or create one if it does not already exist.
+        /// </summary>
+        Task<IMariDiscordRestResult<IMariDiscordDMChannel>> GetOrCreateDMChannelAsync();
     }
 }
