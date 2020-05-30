@@ -1,6 +1,6 @@
 using System;
 
-namespace MariBot.DiscordPatterns.Core.Models.Users
+namespace MariBot.DiscordPatterns.Core.Models.Activities
 {
     /// <summary>
     ///  Flags for the <see cref="IMariDiscordActivity.Flags"/> property, that are ord together.
@@ -18,7 +18,7 @@ namespace MariBot.DiscordPatterns.Core.Models.Users
         /// Whether this activity is an instanced context, like a match.
         /// </summary>
         Instance = 1,
-        
+
         /// <summary>
         ///     Indicates that this activity can be joined.
         /// </summary>

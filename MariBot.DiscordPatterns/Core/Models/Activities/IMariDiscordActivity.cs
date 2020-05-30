@@ -1,4 +1,4 @@
-namespace MariBot.DiscordPatterns.Core.Models.Users
+namespace MariBot.DiscordPatterns.Core.Models.Activities
 {
     /// <summary>
     ///  Represents a user's activity status, typically a <see cref="MariDiscordGame"/>.
@@ -19,7 +19,7 @@ namespace MariBot.DiscordPatterns.Core.Models.Users
         /// The flags that are relevant to this activity.
         /// </summary>
         MariDiscordActivityProperties Flags { get; }
-        
+
         /// <summary>
         /// Gets the details on what the player is currently doing.
         /// </summary>

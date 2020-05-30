@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using MariBot.DiscordPatterns.Core.Models.Activities;
 
 namespace MariBot.DiscordPatterns.Core.Models.Users
 {
@@ -10,7 +11,7 @@ namespace MariBot.DiscordPatterns.Core.Models.Users
         /// <summary>
         /// The activity this user is currently doing.
         /// </summary>
-        IMariDiscordActivity Activity { get; }         
+        IMariDiscordActivity Activity { get; }
 
         /// <summary>
         /// The current status of this user.
