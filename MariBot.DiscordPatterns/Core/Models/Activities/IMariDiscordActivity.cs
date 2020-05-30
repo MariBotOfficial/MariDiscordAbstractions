@@ -1,7 +1,7 @@
 namespace MariBot.DiscordPatterns.Core.Models.Activities
 {
     /// <summary>
-    ///  Represents a user's activity status, typically a <see cref="MariDiscordGame"/>.
+    ///  Represents a user's activity status, typically a <see cref="IMariDiscordGame"/>.
     /// </summary>
     public interface IMariDiscordActivity
     {
