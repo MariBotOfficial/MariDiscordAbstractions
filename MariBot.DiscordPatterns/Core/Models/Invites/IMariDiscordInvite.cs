@@ -1,4 +1,5 @@
 using MariBot.DiscordPatterns.Core.Models.Channels;
+using MariBot.DiscordPatterns.Core.Models.Guilds;
 
 namespace MariBot.DiscordPatterns.Core.Models.Invites
 {
@@ -22,8 +23,10 @@ namespace MariBot.DiscordPatterns.Core.Models.Invites
         /// </summary>
         IMariDiscordChannel Channel { get; }
 
-        // TODO: GuildEntity
-        //IMariDiscordGuild Guild { get; }
+        /// <summary>
+        /// The guild this invite is linked to.
+        /// </summary>
+        IMariDiscordGuild Guild { get; }
 
         /// <summary>
         /// The approximated count of online members in the guild.
