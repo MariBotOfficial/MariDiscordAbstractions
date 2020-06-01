@@ -10,21 +10,21 @@ namespace MariBot.DiscordPatterns.Core.Models.Webhooks
         /// <summary>
         /// Gets or sets the default name of the webhook.
         /// </summary>
-        public string Name { get; set; }
+        public MariDiscordOptional<string> Name { get; set; }
 
         /// <summary>
         /// Gets or sets the default avatar of the webhook.
         /// </summary>
-        public IMariDiscordImage Image { get; set; }
+        public MariDiscordOptional<IMariDiscordImage> Image { get; set; }
 
         /// <summary>
         /// Gets or sets the channel for this webhook.
         /// </summary>
-        public IMariDiscordTextChannel Channel { get; set; }
+        public MariDiscordOptional<IMariDiscordTextChannel> Channel { get; set; }
 
         /// <summary>
         /// Gets or sets the channel ID for this webhook.
         /// </summary>
-        public ulong? ChannelId { get; set; }
+        public MariDiscordOptional<ulong> ChannelId { get; set; }
     }
 }
