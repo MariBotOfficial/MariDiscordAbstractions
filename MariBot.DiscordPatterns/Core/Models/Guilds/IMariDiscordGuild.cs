@@ -474,7 +474,10 @@ namespace MariBot.DiscordPatterns.Core.Models.Guilds
         /// <param name="name">The name of the guild emote.</param>
         /// <param name="image">The image of the new emote.</param>
         /// <param name="roles">The roles to limit the emote usage to.</param>
-        Task<IMariDiscordRestResult<IMariDiscordGuildEmote>> CreateEmoteAsync(string name, IMariDiscordImage image, IEnumerable<IMariDiscordRole> roles = null);
+        Task<IMariDiscordRestResult<IMariDiscordGuildEmote>> CreateEmoteAsync(
+            string name,
+            IMariDiscordImage image,
+            MariDiscordOptional<IEnumerable<IMariDiscordRole>> roles = default);
 
         /// <summary>
         /// Modifies an existing <see cref="IMariDiscordGuildEmote"/> in this guild.
