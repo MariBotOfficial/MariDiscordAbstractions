@@ -10,12 +10,12 @@ namespace MariBot.DiscordPatterns.Core.Models.Channels
         /// <summary>
         /// Gets or sets the topic of the channel.
         /// </summary>
-        public string Topic { get; set; }
+        public MariDiscordOptional<string> Topic { get; set; }
 
         /// <summary>
         /// Gets or sets whether this channel should be flagged as NSFW.
         /// </summary>
-        public bool? IsNsfw { get; set; }
+        public MariDiscordOptional<bool> IsNsfw { get; set; }
 
         /// <summary>
         /// Gets or sets the slow-mode ratelimit in seconds for this channel.
@@ -24,6 +24,6 @@ namespace MariBot.DiscordPatterns.Core.Models.Channels
         /// Users with <see cref="MariDiscordChannelPermission.ManageMessages"/> or 
         /// <see cref="MariDiscordChannelPermission.ManageChannels"/> will be exempt from slow-mode.
         /// </note>
-        public int? SlowModeInterval { get; set; }
+        public MariDiscordOptional<int> SlowModeInterval { get; set; }
     }
 }
