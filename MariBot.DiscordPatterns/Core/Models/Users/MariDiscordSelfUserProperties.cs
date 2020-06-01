@@ -8,11 +8,11 @@ namespace MariBot.DiscordPatterns.Core.Models.Users
         /// <summary>
         /// Gets or sets the username.
         /// </summary>
-        public string Username { get; set; }
+        public MariDiscordOptional<string> Username { get; set; }
 
         /// <summary>
         /// Gets or sets the avatar.
         /// </summary>
-        public IMariDiscordImage Avatar { get; set; }
+        public MariDiscordOptional<IMariDiscordImage> Avatar { get; set; }
     }
 }
