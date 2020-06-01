@@ -41,7 +41,7 @@
           "dependencies": {
             "MariGlobals": {
               "target": "Package",
-              "version": "[1.0.7, )"
+              "version": "[2.0.1-alpha, )"
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",

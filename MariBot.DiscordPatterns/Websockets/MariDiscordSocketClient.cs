@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 using MariBot.DiscordPatterns.Core.Models.Messages;
-using MariGlobals.Event.Concrete;
+using MariGlobals.Events;
 using Microsoft.Extensions.Logging;
 
 namespace MariBot.DiscordPatterns.Websockets
@@ -54,7 +54,7 @@ namespace MariBot.DiscordPatterns.Websockets
 
 
             _logger = logger;
-            _onReady = new AsyncEvent();
+            _onReady = new AsyncEvent(config.InvokeEventsConcurrently, config.WaitForAllEvents);
         }
 
         /// <summary>

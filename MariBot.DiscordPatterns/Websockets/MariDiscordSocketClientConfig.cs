@@ -23,5 +23,11 @@ namespace MariBot.DiscordPatterns.Websockets
 
         /// <inheritdoc />
         public int[] ShardIds { get; set; }
+
+        /// <inheritdoc />
+        public bool InvokeEventsConcurrently { get; set; } = true;
+
+        /// <inheritdoc />
+        public bool WaitForAllEvents { get; set; } = false;
     }
 }

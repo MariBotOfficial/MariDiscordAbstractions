@@ -1,6 +1,6 @@
 using System;
 using System.Threading.Tasks;
-using MariGlobals.Event.Concrete;
+using MariGlobals.Events;
 
 namespace MariBot.DiscordPatterns.Websockets
 {

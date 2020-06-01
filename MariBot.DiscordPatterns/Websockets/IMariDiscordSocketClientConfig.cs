@@ -42,5 +42,15 @@ namespace MariBot.DiscordPatterns.Websockets
         /// The shard ids of this sharded client.
         /// </summary>
         int[] ShardIds { get; set; }
+
+        /// <summary>
+        /// If true all subscribers this event will invokes concurrently, default is true.
+        /// </summary>
+        bool InvokeEventsConcurrently { get; set; }
+
+        /// <summary>
+        ///  If false and <see cref="InvokeEventsConcurrently" /> true this event will wait all invokes finishes, default is false.
+        /// </summary>
+        bool WaitForAllEvents { get; set; }
     }
 }
