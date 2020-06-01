@@ -13,12 +13,12 @@ namespace MariBot.DiscordPatterns.Core.Models.Roles
         /// <remarks>
         /// This value may not be set if the role is an @everyone role.
         /// </remarks>
-        public string Name { get; set; }
+        public MariDiscordOptional<string> Name { get; set; }
 
         /// <summary>
         /// Gets or sets the role's <see cref="MariDiscordGuildPermission"/>.
         /// </summary>
-        public IMariDiscordGuildPermissions Permissions { get; set; }
+        public MariDiscordOptional<IMariDiscordGuildPermissions> Permissions { get; set; }
 
         /// <summary>
         /// Gets or sets the position of the role. This is 0-based!
@@ -26,7 +26,7 @@ namespace MariBot.DiscordPatterns.Core.Models.Roles
         /// <remarks>
         /// This value may not be set if the role is an @everyone role.
         /// </remarks>
-        public int? Position { get; set; }
+        public MariDiscordOptional<int> Position { get; set; }
 
 
         /// <summary>
@@ -35,7 +35,7 @@ namespace MariBot.DiscordPatterns.Core.Models.Roles
         /// <remarks>
         /// This value may not be set if the role is an @everyone role.
         /// </remarks>
-        public IMariDiscordColor Color { get; set; }
+        public MariDiscordOptional<IMariDiscordColor> Color { get; set; }
 
         /// <summary>
         /// Gets or sets whether or not this role should be displayed independently in the user list.
@@ -43,7 +43,7 @@ namespace MariBot.DiscordPatterns.Core.Models.Roles
         /// <remarks>
         /// This value may not be set if the role is an @everyone role.
         /// </remarks>
-        public bool? Hoist { get; set; }
+        public MariDiscordOptional<bool> Hoist { get; set; }
 
         /// <summary>
         /// Gets or sets whether or not this role can be mentioned.
@@ -51,6 +51,6 @@ namespace MariBot.DiscordPatterns.Core.Models.Roles
         /// <remarks>
         /// This value may not be set if the role is an @everyone role.
         /// </remarks>
-        public bool? Mentionable { get; set; }
+        public MariDiscordOptional<bool> Mentionable { get; set; }
     }
 }
