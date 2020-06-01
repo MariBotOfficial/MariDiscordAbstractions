@@ -9,11 +9,11 @@ namespace MariBot.DiscordPatterns.Core.Models.Messages
         /// <summary>
         /// The content of the message.
         /// </summary>
-        string Content { get; set; }
+        MariDiscordOptional<string> Content { get; set; }
 
         /// <summary>
         /// The embed the message should display.
         /// </summary>
-        IMariDiscordEmbed Embed { get; set; }
+        MariDiscordOptional<IMariDiscordEmbed> Embed { get; set; }
     }
 }
