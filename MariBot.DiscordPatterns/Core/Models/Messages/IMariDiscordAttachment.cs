@@ -1,4 +1,4 @@
-namespace MariBot.DiscordPatterns.Core.Models.Messages
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a message attachment found in a <see cref="IMariDiscordMessage"/>.

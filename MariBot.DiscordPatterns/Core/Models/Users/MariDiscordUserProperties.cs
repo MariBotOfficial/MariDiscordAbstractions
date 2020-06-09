@@ -1,6 +1,6 @@
 using System;
 
-namespace MariBot.DiscordPatterns.Core.Models.Users
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Flags for the current <see cref="IMariDiscordSelfUser" />.

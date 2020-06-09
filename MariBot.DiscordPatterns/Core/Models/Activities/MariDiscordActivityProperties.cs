@@ -1,6 +1,6 @@
 using System;
 
-namespace MariBot.DiscordPatterns.Core.Models.Activities
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     ///  Flags for the <see cref="IMariDiscordActivity.Flags"/> property, that are ord together.

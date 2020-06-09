@@ -1,6 +1,6 @@
 using System;
 
-namespace MariBot.DiscordPatterns.Core.Models
+namespace MariBot.DiscordPatterns
 {
     /// <summary> Represents a Discord snowflake entity. </summary>
     public interface IMariDiscordSnowFlakeEntity : IMariDiscordEntity<ulong>

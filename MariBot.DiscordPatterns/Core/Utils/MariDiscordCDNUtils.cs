@@ -1,7 +1,6 @@
 // Copied from https://github.com/discord-net/Discord.Net/blob/dev/src/Discord.Net.Core/Utils/SnowflakeUtils.cs
-using MariBot.DiscordPatterns.Websockets;
 
-namespace MariBot.DiscordPatterns.Core.Utils
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     ///  Provides a series of helper methods for handling snowflake identifiers.

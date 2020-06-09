@@ -1,6 +1,4 @@
-using MariBot.DiscordPatterns.Core.Models.Emotes;
-
-namespace MariBot.DiscordPatterns.Core.Models.Messages
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents an object mention or a <see cref="IMariDiscordEmote" /> 

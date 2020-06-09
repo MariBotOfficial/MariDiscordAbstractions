@@ -1,4 +1,4 @@
-namespace MariBot.DiscordPatterns.Core.Models.Guilds
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Specifies the target of the permission.

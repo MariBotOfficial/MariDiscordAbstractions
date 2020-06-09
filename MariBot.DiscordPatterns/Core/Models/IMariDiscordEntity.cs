@@ -1,4 +1,4 @@
-namespace MariBot.DiscordPatterns.Core.Models
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a discord entity.

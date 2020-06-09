@@ -2,7 +2,7 @@ using System;
 using System.Threading.Tasks;
 using MariGlobals.Events;
 
-namespace MariBot.DiscordPatterns.Websockets
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Base sharded socket client interface.

@@ -1,7 +1,7 @@
 using System;
 using System.IO;
 
-namespace MariBot.DiscordPatterns.Core.Models
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// An image that will be uploaded to Discord.

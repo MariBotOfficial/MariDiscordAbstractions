@@ -2,10 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
-using MariBot.DiscordPatterns.Core.Models.Messages;
-using MariBot.DiscordPatterns.Core.Models.Results;
 
-namespace MariBot.DiscordPatterns.Core.Models.Channels
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a generic channel that can send and receive messages.

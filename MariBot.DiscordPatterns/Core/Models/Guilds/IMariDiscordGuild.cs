@@ -2,17 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.Threading.Tasks;
-using MariBot.DiscordPatterns.Core.Models.AuditLogs;
-using MariBot.DiscordPatterns.Core.Models.Channels;
-using MariBot.DiscordPatterns.Core.Models.Emotes;
-using MariBot.DiscordPatterns.Core.Models.Invites;
-using MariBot.DiscordPatterns.Core.Models.Permissions;
-using MariBot.DiscordPatterns.Core.Models.Results;
-using MariBot.DiscordPatterns.Core.Models.Roles;
-using MariBot.DiscordPatterns.Core.Models.Users;
-using MariBot.DiscordPatterns.Core.Models.Webhooks;
 
-namespace MariBot.DiscordPatterns.Core.Models.Guilds
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a generic guild/server.

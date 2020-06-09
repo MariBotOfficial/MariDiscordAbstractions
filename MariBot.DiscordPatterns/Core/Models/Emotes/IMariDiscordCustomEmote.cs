@@ -1,7 +1,7 @@
 using System;
 using System.Globalization;
 
-namespace MariBot.DiscordPatterns.Core.Models.Emotes
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a custom image-based emote.

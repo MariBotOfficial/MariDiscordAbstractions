@@ -1,6 +1,4 @@
-using MariBot.DiscordPatterns.Core.Models.Permissions;
-
-namespace MariBot.DiscordPatterns.Core.Models.Channels
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Provides properties that are used to modify an <see cref="IMariDiscordTextChannel"/> with the specified changes.

@@ -1,7 +1,6 @@
 using System;
-using MariBot.DiscordPatterns.Core.Utils;
 
-namespace MariBot.DiscordPatterns.Core.Models.Emotes
+namespace MariBot.DiscordPatterns
 {
     /// <inheritdoc />
     public class MariDiscordCustomEmote : IMariDiscordCustomEmote

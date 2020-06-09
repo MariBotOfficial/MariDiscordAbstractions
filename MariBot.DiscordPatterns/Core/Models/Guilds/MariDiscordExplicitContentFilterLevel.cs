@@ -1,4 +1,4 @@
-namespace MariBot.DiscordPatterns.Core.Models.Guilds
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Specifies guild's explicit content filter.

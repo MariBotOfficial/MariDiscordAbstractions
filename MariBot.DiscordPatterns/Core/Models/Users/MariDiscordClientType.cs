@@ -1,4 +1,4 @@
-namespace MariBot.DiscordPatterns.Core.Models.Users
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     ///  Represents the types of clients a user can be active on.

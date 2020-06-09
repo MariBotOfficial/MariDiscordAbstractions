@@ -1,12 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using MariBot.DiscordPatterns.Core.Models.Channels;
-using MariBot.DiscordPatterns.Core.Models.Emotes;
-using MariBot.DiscordPatterns.Core.Models.Results;
-using MariBot.DiscordPatterns.Core.Models.Users;
 
-namespace MariBot.DiscordPatterns.Core.Models.Messages
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a Discord's message.

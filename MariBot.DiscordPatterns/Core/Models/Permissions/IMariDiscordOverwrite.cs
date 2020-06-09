@@ -1,6 +1,4 @@
-using MariBot.DiscordPatterns.Core.Models.Guilds;
-
-namespace MariBot.DiscordPatterns.Core.Models.Permissions
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represent a permission object.

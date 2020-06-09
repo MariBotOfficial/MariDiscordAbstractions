@@ -1,4 +1,4 @@
-namespace MariBot.DiscordPatterns.Core.Models.Guilds
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Specifies the guild's Multi-Factor Authentication (MFA) level requirement.

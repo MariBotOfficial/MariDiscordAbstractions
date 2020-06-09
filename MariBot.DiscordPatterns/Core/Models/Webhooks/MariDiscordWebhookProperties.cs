@@ -1,6 +1,4 @@
-using MariBot.DiscordPatterns.Core.Models.Channels;
-
-namespace MariBot.DiscordPatterns.Core.Models.Webhooks
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Properties used to modify an <see cref="IMariDiscordWebhook" /> with the specified changes.

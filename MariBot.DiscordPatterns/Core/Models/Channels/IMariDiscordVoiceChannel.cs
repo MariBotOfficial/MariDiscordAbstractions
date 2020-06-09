@@ -1,8 +1,7 @@
 using System;
 using System.Threading.Tasks;
-using MariBot.DiscordPatterns.Core.Models.Results;
 
-namespace MariBot.DiscordPatterns.Core.Models.Channels
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a generic voice channel in a guild.

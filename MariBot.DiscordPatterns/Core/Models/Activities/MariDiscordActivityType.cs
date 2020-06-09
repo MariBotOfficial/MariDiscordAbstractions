@@ -1,4 +1,4 @@
-namespace MariBot.DiscordPatterns.Core.Models.Activities
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a Discord user's activity type.

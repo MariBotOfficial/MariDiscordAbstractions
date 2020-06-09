@@ -1,4 +1,4 @@
-namespace MariBot.DiscordPatterns.Core.Models.Channels
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a generic category channel.

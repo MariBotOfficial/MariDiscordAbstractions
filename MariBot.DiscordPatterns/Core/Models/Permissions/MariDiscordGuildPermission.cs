@@ -1,6 +1,6 @@
 using System;
 
-namespace MariBot.DiscordPatterns.Core.Models.Permissions
+namespace MariBot.DiscordPatterns
 {
     /// <summary> 
     /// Defines the available permissions for a channel. 

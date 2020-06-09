@@ -1,4 +1,4 @@
-namespace MariBot.DiscordPatterns.Core.Models.Channels
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Specifies the direction of where message(s) should be retrieved from.

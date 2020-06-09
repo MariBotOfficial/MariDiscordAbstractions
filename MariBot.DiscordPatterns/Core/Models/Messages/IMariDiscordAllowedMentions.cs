@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 
 // Copied from Discord.NET https://github.com/discord-net/Discord.Net/blob/dev/src/Discord.Net.Core/Entities/Messages/AllowedMentions.cs
-namespace MariBot.DiscordPatterns.Core.Models.Messages
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Defines which mentions and types of mentions that will notify users from the message content.

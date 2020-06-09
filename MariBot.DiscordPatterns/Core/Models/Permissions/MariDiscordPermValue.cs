@@ -1,4 +1,4 @@
-namespace MariBot.DiscordPatterns.Core.Models.Permissions
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Specifies the permission value. 

@@ -1,8 +1,6 @@
 using System.Threading.Tasks;
-using MariBot.DiscordPatterns.Core.Models.Results;
-using MariBot.DiscordPatterns.Core.Models.Users;
 
-namespace MariBot.DiscordPatterns.Core.Models.Channels
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a generic direct-message channel.

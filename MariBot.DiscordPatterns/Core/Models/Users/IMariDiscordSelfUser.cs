@@ -1,8 +1,7 @@
 using System;
 using System.Threading.Tasks;
-using MariBot.DiscordPatterns.Core.Models.Results;
 
-namespace MariBot.DiscordPatterns.Core.Models.Users
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents the logged-in Discord user.

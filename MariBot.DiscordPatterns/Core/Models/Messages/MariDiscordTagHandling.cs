@@ -1,6 +1,6 @@
 // See Discord.NET for more details: https://github.com/discord-net/Discord.Net/blob/dev/src/Discord.Net.Core/Entities/Messages/TagHandling.cs
 
-namespace MariBot.DiscordPatterns.Core.Models.Messages
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Specifies the handling type the tag should use.

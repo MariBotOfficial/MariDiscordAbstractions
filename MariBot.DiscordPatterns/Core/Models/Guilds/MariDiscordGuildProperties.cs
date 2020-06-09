@@ -1,9 +1,6 @@
 using System.Globalization;
-using MariBot.DiscordPatterns.Core.Extensions;
-using MariBot.DiscordPatterns.Core.Models.Channels;
-using MariBot.DiscordPatterns.Core.Models.Users;
 
-namespace MariBot.DiscordPatterns.Core.Models.Guilds
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Provides properties that are used to modify an <see cref="IMariDiscordGuild" /> with the specified changes.

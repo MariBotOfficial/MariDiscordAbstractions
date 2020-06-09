@@ -1,6 +1,4 @@
-using MariBot.DiscordPatterns.Core.Models.Channels;
-
-namespace MariBot.DiscordPatterns.Core.Models.Users
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a user's voice connection status.

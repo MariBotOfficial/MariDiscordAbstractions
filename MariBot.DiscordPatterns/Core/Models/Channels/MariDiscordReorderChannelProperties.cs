@@ -1,4 +1,4 @@
-namespace MariBot.DiscordPatterns.Core.Models.Channels
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Provides properties that are used to reorder an <see cref="IMariDiscordGuildChannel"/>.

@@ -1,4 +1,4 @@
-namespace MariBot.DiscordPatterns.Core.Models.Messages
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a provider field for an <see cref="IMariDiscordEmbed"/>.

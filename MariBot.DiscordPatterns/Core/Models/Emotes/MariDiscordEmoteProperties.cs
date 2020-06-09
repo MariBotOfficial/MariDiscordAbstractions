@@ -1,7 +1,6 @@
 using System.Collections.Generic;
-using MariBot.DiscordPatterns.Core.Models.Roles;
 
-namespace MariBot.DiscordPatterns.Core.Models.Emotes
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Provides properties that are used to modify an <see cref="IMariDiscordEmote" /> with the specified changes.

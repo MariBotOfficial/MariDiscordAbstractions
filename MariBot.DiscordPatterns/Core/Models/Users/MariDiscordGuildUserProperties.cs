@@ -1,8 +1,6 @@
 using System.Collections.Generic;
-using MariBot.DiscordPatterns.Core.Models.Channels;
-using MariBot.DiscordPatterns.Core.Models.Roles;
 
-namespace MariBot.DiscordPatterns.Core.Models.Users
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Properties that are used to modify an <see cref="IMariDiscordGuildUser" /> with the following parameters.

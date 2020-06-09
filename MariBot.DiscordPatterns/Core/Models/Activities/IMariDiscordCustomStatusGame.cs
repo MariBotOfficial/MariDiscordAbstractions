@@ -1,7 +1,6 @@
 using System;
-using MariBot.DiscordPatterns.Core.Models.Emotes;
 
-namespace MariBot.DiscordPatterns.Core.Models.Activities
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a user's activity for their custom status.

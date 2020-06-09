@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace MariBot.DiscordPatterns.Core.Models.Messages
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a Discord's embed.

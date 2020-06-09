@@ -1,6 +1,4 @@
-using MariBot.DiscordPatterns.Core.Models.Users;
-
-namespace MariBot.DiscordPatterns.Core.Models.Guilds
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a generic ban object.

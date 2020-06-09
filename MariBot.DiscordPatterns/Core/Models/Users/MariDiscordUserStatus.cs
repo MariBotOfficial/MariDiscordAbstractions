@@ -1,11 +1,11 @@
-namespace MariBot.DiscordPatterns.Core.Models.Users
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Defines the available Discord user status.
     /// </summary>
     public enum MariDiscordUserStatus
     {
-         /// <summary>
+        /// <summary>
         ///     The user is offline.
         /// </summary>
         Offline,

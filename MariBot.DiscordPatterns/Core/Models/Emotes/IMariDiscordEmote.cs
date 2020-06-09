@@ -1,4 +1,4 @@
-namespace MariBot.DiscordPatterns.Core.Models.Emotes
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a Discord's emote.

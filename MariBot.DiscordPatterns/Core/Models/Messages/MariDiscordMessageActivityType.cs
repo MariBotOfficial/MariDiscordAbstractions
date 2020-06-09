@@ -1,4 +1,4 @@
-namespace MariBot.DiscordPatterns.Core.Models.Messages
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents the type of <see cref="IMariDiscordMessageActivity" />.

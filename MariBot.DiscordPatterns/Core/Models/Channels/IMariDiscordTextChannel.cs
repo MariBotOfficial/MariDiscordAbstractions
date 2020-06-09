@@ -3,11 +3,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using MariBot.DiscordPatterns.Core.Models.Messages;
-using MariBot.DiscordPatterns.Core.Models.Results;
-using MariBot.DiscordPatterns.Core.Models.Webhooks;
 
-namespace MariBot.DiscordPatterns.Core.Models.Channels
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a generic channel in a guild that can send and receive messages.

@@ -1,6 +1,4 @@
-using MariBot.DiscordPatterns.Core.Models.Users;
-
-namespace MariBot.DiscordPatterns.Core.Models.AuditLogs
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a generic audit log entry.

@@ -1,7 +1,6 @@
 using System.Runtime.CompilerServices;
-using MariBot.DiscordPatterns.Core.Models.Permissions;
 
-namespace MariBot.DiscordPatterns.Core.Utils
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Provides a series of helper methods for handling permissions.

@@ -1,7 +1,6 @@
 using System.Collections.Generic;
-using MariBot.DiscordPatterns.Core.Utils;
 
-namespace MariBot.DiscordPatterns.Core.Models.Permissions
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents permissions of any entity of a guild.

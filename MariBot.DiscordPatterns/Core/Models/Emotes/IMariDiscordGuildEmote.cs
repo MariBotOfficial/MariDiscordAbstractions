@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace MariBot.DiscordPatterns.Core.Models.Emotes
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a custom image-based emote that is attached to a guild.

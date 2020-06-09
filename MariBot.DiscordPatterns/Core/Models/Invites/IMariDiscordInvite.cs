@@ -1,7 +1,4 @@
-using MariBot.DiscordPatterns.Core.Models.Channels;
-using MariBot.DiscordPatterns.Core.Models.Guilds;
-
-namespace MariBot.DiscordPatterns.Core.Models.Invites
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a generic invite object.

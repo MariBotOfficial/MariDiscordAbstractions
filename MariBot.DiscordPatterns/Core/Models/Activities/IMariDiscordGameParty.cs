@@ -1,4 +1,4 @@
-namespace MariBot.DiscordPatterns.Core.Models.Activities
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Party information for a <see cref="IMariDiscordRichGame" /> object.

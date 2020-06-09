@@ -1,4 +1,4 @@
-namespace MariBot.DiscordPatterns.Core.Models.Activities
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents an asset for a <see cref="IMariDiscordRichGame" /> object containing the text and image.

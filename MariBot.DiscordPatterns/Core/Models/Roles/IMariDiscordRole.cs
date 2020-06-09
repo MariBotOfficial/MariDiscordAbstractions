@@ -1,10 +1,7 @@
 using System;
 using System.Threading.Tasks;
-using MariBot.DiscordPatterns.Core.Models.Guilds;
-using MariBot.DiscordPatterns.Core.Models.Permissions;
-using MariBot.DiscordPatterns.Core.Models.Results;
 
-namespace MariBot.DiscordPatterns.Core.Models.Roles
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a generic role object to be given to a guild user.

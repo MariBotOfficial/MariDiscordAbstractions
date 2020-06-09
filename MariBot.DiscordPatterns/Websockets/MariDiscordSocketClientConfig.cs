@@ -1,6 +1,6 @@
 using Microsoft.Extensions.Logging;
 
-namespace MariBot.DiscordPatterns.Websockets
+namespace MariBot.DiscordPatterns
 {
     /// <inheritdoc />
     public class MariDiscordSocketClientConfig : IMariDiscordSocketClientConfig

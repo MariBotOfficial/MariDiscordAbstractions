@@ -1,9 +1,8 @@
 using System.Threading.Tasks;
-using MariBot.DiscordPatterns.Core.Models.Messages;
 using MariGlobals.Events;
 using Microsoft.Extensions.Logging;
 
-namespace MariBot.DiscordPatterns.Websockets
+namespace MariBot.DiscordPatterns
 {
     /// <inheritdoc />
     public abstract class MariDiscordSocketClient : IMariDiscordSocketClient

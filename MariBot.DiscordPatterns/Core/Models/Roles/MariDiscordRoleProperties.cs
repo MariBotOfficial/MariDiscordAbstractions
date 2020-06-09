@@ -1,6 +1,4 @@
-using MariBot.DiscordPatterns.Core.Models.Permissions;
-
-namespace MariBot.DiscordPatterns.Core.Models.Roles
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Properties that are used to modify an <see cref="IMariDiscordRole" /> with the specified changes.

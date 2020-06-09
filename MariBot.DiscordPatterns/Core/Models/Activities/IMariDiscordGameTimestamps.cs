@@ -1,6 +1,6 @@
 using System;
 
-namespace MariBot.DiscordPatterns.Core.Models.Activities
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Timestamps for a <see cref="IMariDiscordRichGame" /> object.

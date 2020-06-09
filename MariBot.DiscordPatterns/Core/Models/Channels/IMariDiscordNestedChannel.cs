@@ -1,9 +1,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using MariBot.DiscordPatterns.Core.Models.Invites;
-using MariBot.DiscordPatterns.Core.Models.Results;
 
-namespace MariBot.DiscordPatterns.Core.Models.Channels
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a type of guild channel that can be nested within a category.

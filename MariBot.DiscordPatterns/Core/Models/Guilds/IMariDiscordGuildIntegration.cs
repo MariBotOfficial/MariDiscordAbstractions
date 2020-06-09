@@ -1,7 +1,6 @@
 using System;
-using MariBot.DiscordPatterns.Core.Models.Users;
 
-namespace MariBot.DiscordPatterns.Core.Models.Guilds
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Holds information for a guild integration feature.

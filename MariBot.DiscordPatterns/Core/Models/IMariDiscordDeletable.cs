@@ -1,7 +1,6 @@
 using System.Threading.Tasks;
-using MariBot.DiscordPatterns.Core.Models.Results;
 
-namespace MariBot.DiscordPatterns.Core.Models
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a entity that can be deleted.
@@ -12,6 +11,6 @@ namespace MariBot.DiscordPatterns.Core.Models
         /// Delete this entity.
         /// </summary>
         /// <returns>The result of this request.</returns>
-        Task<IMariDiscordRestResult> DeleteAsync();         
+        Task<IMariDiscordRestResult> DeleteAsync();
     }
 }

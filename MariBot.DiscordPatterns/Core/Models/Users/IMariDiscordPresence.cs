@@ -1,7 +1,6 @@
 using System.Collections.Generic;
-using MariBot.DiscordPatterns.Core.Models.Activities;
 
-namespace MariBot.DiscordPatterns.Core.Models.Users
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents the user's presence status. This may include their online status and their activity.

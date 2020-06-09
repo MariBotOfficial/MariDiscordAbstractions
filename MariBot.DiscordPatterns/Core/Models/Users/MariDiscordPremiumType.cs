@@ -1,4 +1,4 @@
-namespace MariBot.DiscordPatterns.Core.Models.Users
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Specifies the type of subscription a user is subscribed to.

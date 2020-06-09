@@ -1,4 +1,4 @@
-namespace MariBot.DiscordPatterns.Core.Models.AuditLogs
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a type of action within an <see cref="IMariDiscordAuditLogEntry"/>.

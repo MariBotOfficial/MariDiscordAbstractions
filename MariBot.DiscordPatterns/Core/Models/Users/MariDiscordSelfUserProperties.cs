@@ -1,4 +1,4 @@
-namespace MariBot.DiscordPatterns.Core.Models.Users
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Properties that are used to modify the <see cref="IMariDiscordSelfUser" /> with the specified changes.

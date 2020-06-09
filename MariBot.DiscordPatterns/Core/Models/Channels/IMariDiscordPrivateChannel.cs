@@ -1,7 +1,6 @@
 using System.Collections.Generic;
-using MariBot.DiscordPatterns.Core.Models.Users;
 
-namespace MariBot.DiscordPatterns.Core.Models.Channels
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a generic channel that is private to select recipients.

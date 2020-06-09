@@ -1,6 +1,6 @@
 using System;
 
-namespace MariBot.DiscordPatterns.Core.Models.Results
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     ///  Represents a Mari discord result.

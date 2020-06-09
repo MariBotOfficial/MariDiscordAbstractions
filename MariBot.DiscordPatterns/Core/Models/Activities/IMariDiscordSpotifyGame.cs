@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace MariBot.DiscordPatterns.Core.Models.Activities
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a user's activity for listening to a song on Spotify.

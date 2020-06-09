@@ -2,7 +2,7 @@ using System;
 using MariGlobals.Extensions;
 
 // https://github.com/Quahu/Disqord/blob/3663f05cbd29b6a4847c70976692c330da6cc08b/src/Disqord.Core/Optional.cs
-namespace MariBot.DiscordPatterns.Core.Models
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents an optional value from discord.

@@ -1,4 +1,4 @@
-namespace MariBot.DiscordPatterns.Core.Models.Roles
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Properties that are used to reorder an <see cref="IMariDiscordRole"/>.

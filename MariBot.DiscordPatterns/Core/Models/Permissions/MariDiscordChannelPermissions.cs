@@ -1,6 +1,4 @@
-using MariBot.DiscordPatterns.Core.Utils;
-
-namespace MariBot.DiscordPatterns.Core.Models.Permissions
+namespace MariBot.DiscordPatterns
 {
     /// <inheritdoc />
     public class MariDiscordChannelPermissions : IMariDiscordChannelPermissions

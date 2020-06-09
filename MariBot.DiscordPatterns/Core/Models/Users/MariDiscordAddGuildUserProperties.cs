@@ -1,7 +1,6 @@
 using System.Collections.Generic;
-using MariBot.DiscordPatterns.Core.Models.Roles;
 
-namespace MariBot.DiscordPatterns.Core.Models.Users
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Properties that are used to add a new <see cref="IMariDiscordGuildUser"/> to the guild with the following parameters.

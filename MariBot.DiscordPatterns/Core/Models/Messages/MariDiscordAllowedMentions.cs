@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace MariBot.DiscordPatterns.Core.Models.Messages
+namespace MariBot.DiscordPatterns
 {
     /// <inheritdoc />
     public class MariDiscordAllowedMentions : IMariDiscordAllowedMentions

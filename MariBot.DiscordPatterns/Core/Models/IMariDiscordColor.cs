@@ -1,7 +1,7 @@
 // Copied from https://github.com/discord-net/Discord.Net/blob/dev/src/Discord.Net.Core/Entities/Roles/Color.cs
 // I copied that because I really like use the default colors set xD.
 
-namespace MariBot.DiscordPatterns.Core.Models
+namespace MariBot.DiscordPatterns
 {
 
     /// <summary>

@@ -1,4 +1,4 @@
-namespace MariBot.DiscordPatterns.Core.Models.Channels
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Properties that are used to modify an <see cref="IMariDiscordGuildChannel" /> with the specified changes.

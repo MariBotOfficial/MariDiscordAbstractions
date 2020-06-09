@@ -1,6 +1,4 @@
-using MariBot.DiscordPatterns.Core.Models.Guilds;
-
-namespace MariBot.DiscordPatterns.Core.Extensions
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// An extension class for <see cref="IMariDiscordGuild"/>.

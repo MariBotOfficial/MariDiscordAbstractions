@@ -1,10 +1,7 @@
 using System;
 using System.Threading.Tasks;
-using MariBot.DiscordPatterns.Core.Models.Channels;
-using MariBot.DiscordPatterns.Core.Models.Guilds;
-using MariBot.DiscordPatterns.Core.Models.Users;
 
-namespace MariBot.DiscordPatterns.Core.Models.Webhooks
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a webhook object on Discord.

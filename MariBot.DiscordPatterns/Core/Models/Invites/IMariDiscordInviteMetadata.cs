@@ -1,7 +1,6 @@
 using System;
-using MariBot.DiscordPatterns.Core.Models.Users;
 
-namespace MariBot.DiscordPatterns.Core.Models.Invites
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents additional information regarding the generic invite object.

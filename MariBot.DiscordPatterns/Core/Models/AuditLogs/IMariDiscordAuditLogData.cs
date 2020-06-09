@@ -1,4 +1,4 @@
-namespace MariBot.DiscordPatterns.Core.Models.AuditLogs
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents data applied to an <see cref="IMariDiscordAuditLogEntry"/>.

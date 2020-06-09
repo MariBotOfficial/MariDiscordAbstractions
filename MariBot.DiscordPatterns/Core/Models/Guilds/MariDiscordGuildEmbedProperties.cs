@@ -1,6 +1,4 @@
-using MariBot.DiscordPatterns.Core.Models.Channels;
-
-namespace MariBot.DiscordPatterns.Core.Models.Guilds
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Provides properties that are used to modify the widget of an <see cref="IMariDiscordGuild" /> with the specified changes.

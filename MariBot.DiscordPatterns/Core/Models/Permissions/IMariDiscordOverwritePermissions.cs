@@ -1,9 +1,7 @@
 using System;
 using System.Collections.Generic;
-using MariBot.DiscordPatterns.Core.Models.Channels;
-using MariBot.DiscordPatterns.Core.Utils;
 
-namespace MariBot.DiscordPatterns.Core.Models.Permissions
+namespace MariBot.DiscordPatterns
 {
     /// <summary>
     /// Represents a container for a series of overwrite permissions.
